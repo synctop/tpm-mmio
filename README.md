@@ -2,6 +2,13 @@
 
 Many spoofing providers believe that hooking OS-provided resources like tbs.sys or tpm.sys is sufficient to hide the TPM's Endorsement Key (EK) and presence from anti-cheat systems. This proof of concept (POC) demonstrates how Memory-Mapped I/O (MMIO) can be used to directly query the TPM state and the EK from the chip itself, bypassing any OS hooks.
 
+## Installation
+
+- In CMD shell: ``shutdown /r /t 0 /o`` or Start button -> Power icon -> SHIFT key + Restart
+- Navigate: Troubleshooting -> Advanced Settings -> Startup Settings -> Reboot 
+- After reset choose F7 or 7 “Disable driver signature checks”
+- Load driver using sc start/sc create.
+
 ## "Bypassing" or "Hooking" MMIO
 
 Frankly, there is no way to "bypass" or "hook" MMIO. The only viable method to spoof a TPM's EK is through a hypervisor, which traps the guest TPM MMIO registers to redirect them to your own handler.
