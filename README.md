@@ -31,6 +31,8 @@ The primary selling point of the TPM is its Remote Attestation capability, which
 [tpm-attestation](https://github.com/SyncUD/tpm-mmio/assets/109126667/36307325-f330-4e1a-bfe0-4d92acbad789) 
 (Source: OpenPower TrustBoot).
 
-## What Should You Do?
+## Credits
 
-Wait for our (https://sync.top/) solution.
+Code restructured into WDK from EDK2 documentation and sourcecode: https://github.com/tianocore/edk2
+Credits to the people @ e&f (mainly everdox & Zepta) for helping me out with AMD support.
+
