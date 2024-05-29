@@ -17,7 +17,7 @@ Creating a hypervisor today is very challenging, especially since anti-cheat sys
 
 ## Detection Vectors of a Hypervisor
 
-Even if you manage to create a fully undetected hypervisor and virtualize the TPM registers, you can still be detected.
+Even if you manage to create a fully undetected hypervisor and intercept/handle the MMIO TPM commands, you can still be detected.
 
 The primary selling point of the TPM is its Remote Attestation capability, which can attest whether an EK is valid and whether the TPM device is genuine.
 
