@@ -34,5 +34,5 @@ The primary selling point of the TPM is its Remote Attestation capability, which
 ## Credits
 
 Code restructured into WDK from EDK2 documentation and sourcecode: https://github.com/tianocore/edk2
-Credits to the people @ e&f (mainly everdox & Zepta) for helping me out with AMD support.
+Credits to the people @ e&f (mainly everdox & Zepta) for helping me out.
 
